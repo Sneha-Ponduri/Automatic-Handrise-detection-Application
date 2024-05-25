@@ -1,68 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GitHub Repository Documentation: React TensorFlow.js Face Interaction
 
-## Available Scripts
+# Overview
+This repository contains a React application that integrates TensorFlow.js to detect and analyze handraise detection in real time. The application demonstrates the potential of machine learning in interactive web environments and can serve as a basis for developing interactive games, accessibility tools, or advanced user interfaces.
+# Features
+# Handraise detection-
+Whenever the person raises the hand, the hand raise is detected.
+# Blink of hand raise emoji
+Whenever the hand raise is detected,the hand raise emoji is detected.
 
-In the project directory, you can run:
+# Prerequisites
+To run this application, you will need:
 
-### `yarn start`
+Node.js (version 14.0.0 or higher recommended)
+npm (version 6.0.0 or higher recommended)
+A webcam
+A modern web browser with TensorFlow.js support
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Installation Instructions
+# 1. Clone the Repository
+git clone https://github.com/Automatic-Handrise-detection-Application.git
+cd Automatic-Handrise-detection-Application
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# 2. Install Dependencies
+npm install
 
-### `yarn test`
+# 3. Run the Development Server
+npm start
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After starting the server, open your web browser and go to http://localhost:3000. The application should be running, and you should be prompted to allow webcam access.
 
-### `yarn build`
+# Usage Guide
+To use the application:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Allow the application to access your webcam when prompted.
+The main interface will display your video stream.
+Raise your hand.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Technology Stack
+React: For building the user interface.
+TensorFlow.js: For handraise detection and interaction capabilities.
+Webcam Capture: Uses the HTML5 video API to capture video from the user's webcam.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# License
+This project is released under the MIT License, which allows modification and redistribution for both personal and commercial purposes. See the LICENSE file in the repository for full details.
 
-### `yarn eject`
+# Contact Information
+- Sneha: snehaponduri@gmail.com
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- GitHub Project URL: https://github.com/Sneha-Ponduri
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- LinkedIn Profile URL: https://www.linkedin.com/in/sneha-ponduri-8035892a9/
